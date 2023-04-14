@@ -22,7 +22,7 @@ from title.views import *
 
 router = routers.SimpleRouter()
 router.register(r'news', ArticleViewSet)
-# asd
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
